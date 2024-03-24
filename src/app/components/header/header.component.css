@@ -1,0 +1,32 @@
+.custom-header{
+    font-size: 0.75rem;
+    font-weight: 500;
+   line-height:  14.4px
+}
+
+.back-icon{
+    background-color: #FDF4E2C9;
+    width: 1.75rem;
+    height: 1.75rem;
+    vertical-align: middle;
+}
+
+.custom-button{
+    background-color: #F4F4F4;
+}
+
+::ng-deep --mdc-fab-container-color{
+    color: black !important;
+}
+.custom-mat-button{
+    width: 1.432rem;
+    height: 1.432rem;
+    font-size: 0.09rem;
+    color: var(main-color);
+}
+
+
+.custom-ticket-icon{
+    color: #F4B740;
+}
+

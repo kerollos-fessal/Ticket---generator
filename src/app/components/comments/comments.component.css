@@ -1,0 +1,119 @@
+::ng-deep .p-divider.p-divider-horizontal {
+  margin-top: 0;
+}
+
+::ng-deep .p-divider.p-divider-horizontal .p-divider-content {
+  font-size: 0.625rem;
+  color: #83899f;
+  background-color: #f8f8f8;
+  vertical-align: middle;
+  margin-right: 0.313rem;
+  margin-left: 0.313rem;
+  border-radius: 0.25rem;
+}
+
+.person-img {
+  width: 1.188rem;
+  height: 1.188rem;
+  right: -2.5%;
+  top: -1.9%;
+}
+
+.person-img2 {
+  width: 1.188rem;
+  height: 1.188rem;
+  right: -2.5%;
+  top: 50%;
+}
+
+.person-img3 {
+  width: 1.188rem;
+  height: 1.188rem;
+  right: -2.5%;
+  top: 88%;
+}
+
+.person-img4 {
+  width: 1.188rem;
+  height: 1.188rem;
+  right: -2.5%;
+  top: 125%;
+}
+
+.comments-container {
+  border-right: 0.052rem dashed #dadce2;
+}
+
+.complain-owner {
+  font-size: 0.656rem;
+}
+
+.msg-time {
+  font-size: 0.469rem;
+  color: #8498aa;
+}
+
+.msg-dot {
+  font-size: 1rem;
+  color: #8498aa;
+}
+
+.comment-body {
+  background-color: #3e97ff0f;
+  color: #575757;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.563rem 0.313rem 0.438rem;
+  line-height: 1.031rem;
+  border: 0.031rem solid #eceaef99;
+}
+
+.comment-body-small {
+  background-color: #f3f9ff;
+  color: #2e2e2e;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.563rem 0.313rem 0.438rem;
+  line-height: 0.844rem;
+  border: 0.031rem solid #f1f1f399;
+  margin-bottom: 0.88rem;
+}
+
+.comment-body-small2 {
+  background-color: #f3f9ff;
+  color: #2e2e2e;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.563rem 0.313rem 0.438rem;
+  line-height: 0.844rem;
+  border: 0.031rem solid #f5f5f699;
+  width: 67%;
+}
+
+.text-area-justify {
+  width: 67%;
+  box-shadow: 0px 4px 20px 0px #0000000d;
+  border: 0.063rem solid #f2f2f2;
+}
+
+.text-area-justify textarea::placeholder {
+  color: #b4b4b4;
+  font-size: 0.625rem;
+}
+
+::ng-deep textarea {
+  resize: none;
+  width: 100%;
+  border: none;
+}
+
+.send-button {
+  box-shadow: 0px 18px 40px 0px #7090b01f;
+  width: 1.25rem;
+  height: 1.25rem !important;
+  font-size: 0.497rem;
+  background-color: #0771de;
+  left: 4%;
+  top: 25%;
+}
+
+.mention {
+  color: #0771de;
+}

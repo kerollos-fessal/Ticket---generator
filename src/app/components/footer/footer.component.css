@@ -1,0 +1,50 @@
+.database-button{
+    background-color: #F1F1F18F;
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #ccc;
+}
+
+
+.custom-footer-icon{
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #97671F;
+}
+
+
+.border-dash{
+    border-bottom: 1px dashed #788C9454;
+    width:1.5rem;
+    right: 12%;
+    top: 50%;
+}
+
+
+.custom-dash{
+    color: #788C9454;
+}
+
+.process-state{
+    background-color: #FDEED9;
+}
+
+.expanded-text{
+    font-size: 0.488rem;
+}
+
+.check-footer{
+    color: white;
+    background-color: #905FC0;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem !important;
+
+}
+
+.custom-check-icon{
+    color: #5FCD92;
+}
+
+
+.custom-lock{
+    color: #CFCA55;
+}

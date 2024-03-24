@@ -1,0 +1,82 @@
+<div class="d-flex rounded-2 bg-white flex-column align-items-start p-2">
+  <div class="d-flex align-items-center mb-2">
+    <div class="custom-border me-1"></div>
+    <p class="fw-medium mb-0 ticket-datils-side ps-1">بيانات التذكرة</p>
+  </div>
+  <div class="admin-side-header d-flex align-items-center mb-1 w-100">
+    <i class="fa-regular fa-address-card custom-card-icon pe-1"></i>
+    <p class="mb-0 main-color admin-side">المكلف</p>
+  </div>
+
+  <div class="card mb-2 ps-2">
+    <p-avatarGroup styleClass=" w-100 ">
+      <p-avatar
+        class="d-none"
+        image="assets/images/person.jpg"
+        size="normal"
+        shape="circle"
+      ></p-avatar>
+      <p-avatar
+        image="assets/images/person2.jpg"
+        size="normal"
+        shape="circle"
+      ></p-avatar>
+      <p-avatar
+        image="assets/images/person.jpg"
+        size="normal"
+        shape="circle"
+      ></p-avatar>
+      <p-avatar
+        image="assets/images/person2.jpg"
+        size="normal"
+        shape="circle"
+      ></p-avatar>
+    </p-avatarGroup>
+  </div>
+  <div class="admin-side-header d-flex align-items-center mb-1">
+    <i class="fa-regular fa-flag custom-card-icon pe-1"></i>
+    <p class="mb-0 main-color admin-side">الأولوية</p>
+  </div>
+  <form class="card" *ngIf="formGroup" [formGroup]="formGroup" class="mb-2 w-100">
+    <p-dropdown formControlName="selectedCustomer" [options]="customers" optionLabel="name" placeholder="إضغط هنا لإضافة الأولوية" [panelStyleClass]="'custom-dropdown-panel'">
+      <ng-template let-customer pTemplate="item">
+        <div class="option-item">
+      <i class="pi pi-flag-fill"></i>
+          <span>{{ customer.name }}</span>
+        </div>
+      </ng-template>
+    </p-dropdown>
+  </form>
+  <div class="admin-side-header d-flex align-items-center mb-1">
+    <i
+      class="fa-solid fa-hashtag custom-card-icon me-1 border rounded-3 border-2 border-secondary-subtle"
+    ></i>
+    <p class="mb-0 main-color admin-side">العلامات</p>
+  </div>
+  <div class="card gap-1 mb-2">
+    <p-tag  severity="info" value="شكاوي الهاتف المحمول"></p-tag>
+    <p-tag  severity="warning" value="شكاوي الهاتف"></p-tag>
+    <p-tag  severity="success" value="شكاوي الهاتف المحمول"></p-tag>
+  </div>
+  <div class="admin-side-header d-flex align-items-center mb-1">
+    <i class="fa-solid fa-table-cells-large custom-card-icon me-1"></i>
+    <p class="mb-0 main-color admin-side">لوحة التذكرة</p>
+  </div>
+  <div class="image-header rounded-2 d-flex align-items-center mb-3">
+    <button
+      class="btn close custom-calendar rounded-1 fw-normal py-1 px-2"
+      data-dismiss="modal"
+      aria-label="Close"
+    >
+      <i class="fa fa-calendar main-color" style="color: white"></i>
+    </button>
+    <p class="mb-0 last-p main-color ps-2">شكاوى العملاء</p>
+  </div>
+  <div class="admin-side-header d-flex align-items-center mb-1">
+    <i class="fa-solid fa-circle-nodes custom-card-icon me-1"></i>
+    <p class="mb-0 main-color admin-side">نوع التذكرة</p>
+  </div>
+  <div class="problem-type flex w-100">
+    <p-dropdown [options]="issues" [(ngModel)]="selectedIssues" optionLabel="name" [showClear]="false" placeholder="نوع المشكلة"></p-dropdown>
+</div>
+</div>
