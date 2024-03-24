@@ -1,133 +1,4 @@
-.ticket-icon-small {
-    font-size: 0.938rem;
-  }
-  
-  .ticket-type {
-    color: #121a2a;
-    font-size: 0.75rem;
-  }
-  
-  .ticket-name {
-    font-size: 0.563rem;
-  }
-  
-  .ticket-list {
-    font-size: 0.75rem;
-  }
-  
-  .custom-paragraph {
-    color: #2d374c;
-    font-size: 0.688rem !important;
-    overflow: hidden;
-  }
-  
-  /* 
-  .custom-div{
-      width: 10px;
-      color: orange;
-      height: 50px;
-  }
-  
-  .custom-border{
-      border-right: orange 5px solid;
-  } */
-  
-  .custom-div-img {
-    border: dashed 1px #c7e3ff;
-    width: 2.125rem;
-    height: 2.125rem;
-    padding: 0.125rem;
-  }
-  
-  .custom-button {
-    background-color: #f4f4f4;
-    width: 1.432rem;
-    height: 1.432rem;
-  }
-  
-  .customer-name {
-    font-size: 0.75rem;
-    font-family: 'CustomFont', 'Neo Sans Arabic', sans-serif;
-  }
-  
-  .customer-detail {
-    color: #b9b9bf;
-    font-size: 0.563rem;
-    font-family: 'CustomFont', 'Neo Sans Arabic', sans-serif;
-  }
-  
-  
-  .custom-bag-icon {
-    color: #566f8f;
-    width: 0.938rem;
-    height: 0.938rem;
-  }
-  
-  .custom-back {
-    background-color: #f8f8f8;
-  }
-  
-  .custom-purpose {
-    color: #83899f;
-    font-size: 0.625rem;
-  }
-  
-  .custom-modal {
-    background-color: #454545 !important;
-  }
-  #modal-custom {
-    background-color: #fafafa !important;
-  }
-  
-  .custom-menu{
-  color: #B8B6B6C7;
-  left:5%;
-  top: 10%;
-  }
-  
-  .custom-code {
-    color: #83899f;
-    font-size: 0.5rem;
-    border-right: 1px solid #d9d9d9;
-  }
-  
-  .custom-edit-icon-btn {
-    background-color: #edf6ff !important;
-    width: 1.25rem;
-    height: 1.25rem;
-  }
-  
-  .share-icon {
-    color: #0f6cbd;
-    /* height: 0.875rem;
-    width: 0.875rem; */
-  }
-  
-  
-  .border-inorange{
-    width: 1rem;
-    height: 3.438rem;
-    background-color: #FFDB94;
-    border-radius: 8px, 0px, 0px, 8px;
-    right: -2.5%;
-    top: 26%;
-  
-  }
-  
-  
-  .border-inblue{
-    width: 1rem;
-    height: 3.438rem;
-    background-color: #49C9FF;
-    border-radius: 8px, 0px, 0px, 8px;
-    right: -5%;
-    top: 26%;
-  }
-  
-  .custom-shadow{
-    box-shadow: 8px 4px 20px 0px #5E91FE0D;
-  }
-  
+
   .custom-border{
     border-radius: 0.063rem;
     width: 0.313rem;
@@ -155,49 +26,12 @@
     width: 100%;
   }
   
-  .image-header2 {
-    border: #e0e3e9 solid 0.75px;
-    height: 2.825rem;
-    width: 100%;
-  }
-  
-  .image1 {
-    border: 1px white solid;
-  }
-  .image2 {
-    border: 1px white solid;
-  }
-  .image3 {
-    border: 1px white solid;
-  }
-  
-  .custom-image1 {
-    top: 0;
-    right: 10%;
-  }
-  
-  .custom-image2 {
-    top: 0;
-    right: 20%;
-  }
-  
-  .custom-image3 {
-    top: 0;
-    right: 30%;
-  }
-  
-  .custom-flag {
-    color: #ff4b55;
-    font-size: 0.625rem;
-  }
-  
-  .priority {
-    font-size: 0.75rem;
-  }
   
   ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
     color: #87888b;
     font-size: 0.625rem;
+    padding-top: 0.61rem;
+    padding-bottom: 0.61rem;
   }
   
   ::ng-deep .p-dropdown .p-dropdown-label {
@@ -250,31 +84,7 @@
   .custom-calendar {
     background-color: #27d08c;
     color: white;
-    /* width: 1.188rem;
-      height: 1.125rem; */
   }
-  
- */
-  
-  .complain1 {
-    color: #0771de;
-    background-color: #e3edf8;
-  }
-  
-  .complain2 {
-    color: #f4b740;
-    background-color: #fff7e5;
-  }
-  
-  .complain3 {
-    color: #2ea87c;
-    background-color: #f3ffe5;
-  }
-  
-  
-::ng-deep .card{
-  width: 100%;
-}
 
 ::ng-deep .p-avatar{
   display: flex;
@@ -285,24 +95,20 @@
   margin-left: -0.5rem;
 }
 
-/* hashtags edit */
 
+/* hashtags edit */
 ::ng-deep .p-tag.p-tag-info{
   background-color: #E3EDF8;
   color: #0771DE;
   font-size: 0.625rem;
   font-weight: 400;
-
-  /* margin-right: 1rem; */
   }
-
 
 ::ng-deep .p-tag.p-tag-warning{
 background-color: #FFF7E5;
 color: #F4B740;
 font-size: 0.625rem;
 font-weight: 400;
-
 }
 
 
@@ -319,7 +125,5 @@ font-weight: 400;
     flex-wrap: wrap;
     justify-content: start;
     padding: 0.25rem;
+    width: 100%;
   }
-
-
-  /* ::ng-deep .problem-type  */
